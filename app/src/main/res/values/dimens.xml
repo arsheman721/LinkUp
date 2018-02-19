@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+   <dimen name="activity_horizontal_margin"> 160dp </dimen>
+    <dimen name="logo_w_h"> 60dp </dimen>
+    <!--<dimen name="logo_w_h"> 40dp </dimen>-->
+</resources>

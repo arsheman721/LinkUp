@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "488323609489",
-    "firebase_url": "https://freshers-app-d9f34.firebaseio.com",
-    "project_id": "freshers-app-d9f34",
-    "storage_bucket": "freshers-app-d9f34.appspot.com"
+    "project_number": "724565412196",
+    "firebase_url": "https://bfreshers-322ac.firebaseio.com",
+    "project_id": "bfreshers-322ac",
+    "storage_bucket": "bfreshers-322ac.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:488323609489:android:94bbfde8217f5485",
+        "mobilesdk_app_id": "1:724565412196:android:94bbfde8217f5485",
         "android_client_info": {
           "package_name": "com.example.ahmed.freshersapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "488323609489-0ktoqf0a0ud5770a9ijtjmbf6kgbo8db.apps.googleusercontent.com",
+          "client_id": "724565412196-mva6614p4jvh08cu91soi5t0lc7ahkeb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmed.freshersapp",
+            "certificate_hash": "3ff28358f4ed8397ddef49795e64049e47af3db9"
+          }
+        },
+        {
+          "client_id": "724565412196-69md2f3kdc5maa89d7hiutn69d4q045l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAEZrRcUoN9QV1H0QwKrfXRuETi6dWUu1A"
+          "current_key": "AIzaSyCzqITZVmNENYtk9Elf-k8ooZvvlNWJbnI"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724565412196-69md2f3kdc5maa89d7hiutn69d4q045l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

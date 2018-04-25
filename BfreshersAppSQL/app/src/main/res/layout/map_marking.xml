@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_mark"
+    android:scaleType = "centerCrop"
+    android:id="@+id/rlayout"
+    tools:context="com.example.android.linkup.MapMarkingActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/comment_b"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:background="#f1f1f1"
+        android:ems="10"
+        android:hint="Comment here"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+
+
+
+
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingTextView_tip"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#003257"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@android:color/white"
+
+        android:textSize="14sp"
+        app:texts="@array/marking_tip"
+        app:timeout="1300" />
+
+
+</RelativeLayout>

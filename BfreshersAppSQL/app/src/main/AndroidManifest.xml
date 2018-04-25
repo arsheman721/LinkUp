@@ -19,7 +19,9 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserAreaActivity"></activity>
-        <activity android:name=".Homepage"></activity>
+        <activity android:name=".Main"></activity>
+        <activity android:name=".Map"></activity>
+        <activity android:name=".MapMarkingActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid"
+    tools:context="com.example.android.linkup.Map">
+
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/map_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/map_basic" />
+
+    <ImageView
+        android:id="@+id/map_notxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/map_notxt" />
+
+    <ImageView
+        android:id="@+id/map_txtb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/map_txtb" />
+
+    <ImageView
+        android:id="@+id/map_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/map_text" />
+
+    <Button
+        android:id="@+id/zoomin"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="62dp"
+        android:text="+"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/zoomout"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:text="-"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@null"
+        app:srcCompat="@drawable/label" />
+
+    <ImageButton
+        android:id="@+id/terrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@null"
+        app:srcCompat="@drawable/terrain" />
+
+    <TextView
+        android:id="@+id/tip1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#003257"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Landscape mode is recommended"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <ImageButton
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/zoomout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        app:srcCompat="@drawable/pin" />
+
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingTextView"
+        android:gravity="center"
+        android:background="#003257"
+        android:textColor="@android:color/white"
+        android:textSize="27sp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:timeout="1300"
+        app:texts="@array/tip"
+
+            />
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingTextViewtop"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fadingTextView"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="54dp"
+        android:background="#003257"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:texts="@array/tip_top"
+        app:timeout="1300" />
+
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingTextViewbottom"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="#003257"
+        android:gravity="center"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:texts="@array/tip_bottom"
+        app:timeout="1300" />
+
+    <Button
+        android:id="@+id/gotit"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/fadingTextView"
+        android:layout_centerHorizontal="true"
+        android:background="#eeeeee"
+        android:text="Got it!"
+        android:textSize="20sp" />
+
+</RelativeLayout>

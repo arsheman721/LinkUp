@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="tip_top">
+        <item>Use two fingers or double tap to zoom </item>
+    </string-array>
+
+    <string-array name="tip">
+        <item>To hide/show terrains or labels, tap icons on bottom left</item>
+
+    </string-array>
+
+    <string-array name="tip1">
+        <item>Landscape mode is recommended</item>
+    </string-array>
+
+
+    <string-array name="tip_bottom">
+        <item>Tap here to mark the map</item>
+    </string-array>
+
+    <string-array name="marking_tip">
+        <item>Tap anywhere on the map</item>
+    </string-array>
+
+
+</resources>

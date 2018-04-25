@@ -11,10 +11,22 @@ import android.widget.TextView;
 
 public class UserAreaActivity extends AppCompatActivity {
 
+    private Button button2;
+
+
+    public void Home(){
+        Intent intent1 = new Intent(this,Main.class);
+        startActivity(intent1);
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
+
+        button2 = findViewById(R.id.button2);
 //
 //        Button HomePageLink = (Button) findViewById(R.id.bHomepage);
 //        HomePageLink.setOnClickListener((View.OnClickListener) this);
@@ -22,6 +34,7 @@ public class UserAreaActivity extends AppCompatActivity {
         final EditText etEmail = (EditText) findViewById(R.id.etEmail);
         final EditText etAge = (EditText) findViewById(R.id.etAge);
         final TextView welcomeMessage = (TextView) findViewById(R.id.tvWelcomeMsg);
+
 
 
         Intent intent = getIntent();
@@ -34,6 +47,18 @@ public class UserAreaActivity extends AppCompatActivity {
         welcomeMessage.setText(message);
         etEmail.setText(email);
         etAge.setText(age + "");
+
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Home();
+            }
+        });
+
+
+
+
 
 
 //            Log.i("clicks", "You Clicked B1");

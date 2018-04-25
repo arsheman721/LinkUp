@@ -12,7 +12,7 @@ public class Homepage {
     protected void onCreate(Bundle savedInstanceState) {
 
         setContentView(R.layout.home_page);
-    }
+    }//asd
 
     private void setContentView(int home_page) {
         //final TextView textView = (TextView) findViewById(R.id.textView3);

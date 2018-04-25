@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CS2001-2017-2018-group-17.iml" filepath="$PROJECT_DIR$/CS2001-2017-2018-group-17.iml" />
       <module fileurl="file://$PROJECT_DIR$/FreshersApp.iml" filepath="$PROJECT_DIR$/FreshersApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

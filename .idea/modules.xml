@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CS2001-2017-2018-group-17.iml" filepath="$PROJECT_DIR$/CS2001-2017-2018-group-17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FreshersApp.iml" filepath="$PROJECT_DIR$/FreshersApp.iml" />
+      <module fileurl="file://C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\CS2001-2017-2018-group-17.iml" filepath="C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\CS2001-2017-2018-group-17.iml" />
+      <module fileurl="file://C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\FreshersApp.iml" filepath="C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\FreshersApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\app\app.iml" filepath="C:\Users\Parth Shah\Desktop\Soleiman\CS2001-2017-2018-group-17\app\app.iml" />
     </modules>
   </component>
 </project>
